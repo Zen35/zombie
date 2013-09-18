@@ -13,7 +13,6 @@
     "html", "html5", "dom", "css", "javascript", "integration", "ajax", "full-stack", "DSL" ],
   "main": "lib/zombie",
   "scripts": {
-    "prepublish":   "make build",
     "test":         "./node_modules/.bin/mocha"
   },
   "engines": {
@@ -21,7 +20,7 @@
   },
   "dependencies": {
     "eventsource":      "~0.0.5",
-    "html5":            "~0.3.8",
+    "html5":            "0.3.8",
     "jsdom":            "~0.2.15",
     "mime":             "~1.2.7",
     "ms":               "~0.1.0",
